@@ -42,6 +42,9 @@ struct EthashProofOfWork
 	{
 		Nonce nonce;
 		h256 mixHash;
+		h256 headerHash;
+		h256 seedHash;
+		h256 boundary;
 	};
 
 	struct Result
